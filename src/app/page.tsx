@@ -93,8 +93,8 @@ export default function LandingPage() {
       title="Client Success Stories"
       description="What our partners say about us."
       testimonials={[
-        { id: "1", name: "Erik Solberg", quote: "Exceptional service.", title: "CEO", role: "Partner", rating: 5 },
-        { id: "2", name: "Ingrid Berg", quote: "Very professional.", title: "COO", role: "Partner", rating: 5 }
+        { id: "1", name: "Erik Solberg", title: "Exceptional service.", role: "Partner", rating: 5 },
+        { id: "2", name: "Ingrid Berg", title: "Very professional.", role: "Partner", rating: 5 }
       ]}
     />
   </div>
