@@ -93,8 +93,8 @@ export default function LandingPage() {
       title="Client Success Stories"
       description="What our partners say about us."
       testimonials={[
-        { name: "Erik Solberg", handle: "@nordic", testimonial: "Exceptional service.", rating: 5 },
-        { name: "Ingrid Berg", handle: "@chem", testimonial: "Very professional.", rating: 5 }
+        { id: "1", name: "Erik Solberg", testimonial: "Exceptional service.", rating: 5, title: "CEO", role: "Partner" },
+        { id: "2", name: "Ingrid Berg", testimonial: "Very professional.", rating: 5, title: "COO", role: "Partner" }
       ]}
     />
   </div>
@@ -118,8 +118,8 @@ export default function LandingPage() {
       title="Meet the Team"
       description="Our dedicated specialists."
       members={[
-        { name: "Erik S.", role: "CEO", imageSrc: "" },
-        { name: "Ingrid B.", role: "COO", imageSrc: "" }
+        { id: "1", name: "Erik S.", role: "CEO", imageSrc: "" },
+        { id: "2", name: "Ingrid B.", role: "COO", imageSrc: "" }
       ]}
     />
   </div>
