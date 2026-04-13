@@ -28,22 +28,10 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingOverlay
       navItems={[
-        {
-          name: "Home",
-          id: "/",
-        },
-        {
-          name: "Products",
-          id: "/products",
-        },
-        {
-          name: "Compliance",
-          id: "/compliance",
-        },
-        {
-          name: "Contact",
-          id: "/contact",
-        },
+        { name: "Home", id: "/" },
+        { name: "Products", id: "/products" },
+        { name: "Compliance", id: "/compliance" },
+        { name: "Contact", id: "/contact" },
       ]}
       brandName="NordicChem"
     />
@@ -52,98 +40,31 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboardTestimonial
       useInvertedBackground={false}
-      background={{
-        variant: "gradient-bars",
-      }}
+      background={{ variant: "gradient-bars" }}
       title="Industrial Chemical Supply for the Nordic Market"
       description="NordicChem Solutions provides structured, documentation-aware chemical supply services to B2B clients across Norway and the wider Nordic region."
       testimonials={[
-        {
-          name: "Erik Solberg",
-          handle: "@nordicprocure",
-          testimonial: "Reliable supply chain partner for our manufacturing plant.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/close-up-businessman-standing-front-table-writing-diary-with-pen_23-2148087135.jpg",
-        },
-        {
-          name: "Ingrid Berg",
-          handle: "@chemicalOps",
-          testimonial: "Excellent documentation and compliance transparency.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/man-holding-notes_1368-6370.jpg",
-        },
-        {
-          name: "Lars Jensen",
-          handle: "@industrial",
-          testimonial: "Consistently high standards for all our chemical needs.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-successful-businessman-manager-ceo-holding-tablet-walking-through-warehouse-storage-area-looking-towards-shelves_342744-1499.jpg",
-        },
-        {
-          name: "Solveig Nilsen",
-          handle: "@factoryLead",
-          testimonial: "Professional coordination and logistics support.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/side-view-queer-people-work_23-2150617703.jpg",
-        },
-        {
-          name: "Olaf Halvorsen",
-          handle: "@sourcing",
-          testimonial: "Transparent pricing and great documentation.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/young-man-holding-writing-diary-office_23-2148187178.jpg",
-        },
+        { name: "Erik Solberg", handle: "@nordicprocure", testimonial: "Reliable supply chain partner for our manufacturing plant.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/close-up-businessman-standing-front-table-writing-diary-with-pen_23-2148087135.jpg" },
+        { name: "Ingrid Berg", handle: "@chemicalOps", testimonial: "Excellent documentation and compliance transparency.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/man-holding-notes_1368-6370.jpg" },
+        { name: "Lars Jensen", handle: "@industrial", testimonial: "Consistently high standards for all our chemical needs.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/portrait-successful-businessman-manager-ceo-holding-tablet-walking-through-warehouse-storage-area-looking-towards-shelves_342744-1499.jpg" },
+        { name: "Solveig Nilsen", handle: "@factoryLead", testimonial: "Professional coordination and logistics support.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/side-view-queer-people-work_23-2150617703.jpg" },
+        { name: "Olaf Halvorsen", handle: "@sourcing", testimonial: "Transparent pricing and great documentation.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/young-man-holding-writing-diary-office_23-2148187178.jpg" }
       ]}
-      buttons={[
-        {
-          text: "Learn More",
-          href: "/products",
-        },
-      ]}
+      buttons={[{ text: "Learn More", href: "/products" }]}
       imageSrc="http://img.b2bpic.net/free-photo/plant-picture-clean-room-equipment-stainless-steel-machines_645730-718.jpg"
       avatars={[
-        {
-          src: "http://img.b2bpic.net/free-photo/plant-picture-clean-room-equipment-stainless-steel-machines_645730-718.jpg",
-          alt: "Manager headshot",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/photo-grey-pipes-tanks-chemistry-medicine-production-pharmaceutical-factory-interior-hightech-factory-modern-production_645730-43.jpg",
-          alt: "Client headshot",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/close-up-businessman-standing-front-table-writing-diary-with-pen_23-2148087135.jpg",
-          alt: "Client headshot",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/office-desk-still-life_23-2148111395.jpg",
-          alt: "Client headshot",
-        },
-        {
-          src: "http://img.b2bpic.net/free-photo/laboratory-glassware-with-red-liquid-still-life_23-2149510715.jpg",
-          alt: "Client headshot",
-        },
+        { src: "http://img.b2bpic.net/free-photo/plant-picture-clean-room-equipment-stainless-steel-machines_645730-718.jpg", alt: "Manager headshot" },
+        { src: "http://img.b2bpic.net/free-photo/photo-grey-pipes-tanks-chemistry-medicine-production-pharmaceutical-factory-interior-hightech-factory-modern-production_645730-43.jpg", alt: "Client headshot" },
+        { src: "http://img.b2bpic.net/free-photo/close-up-businessman-standing-front-table-writing-diary-with-pen_23-2148087135.jpg", alt: "Client headshot" },
+        { src: "http://img.b2bpic.net/free-photo/office-desk-still-life_23-2148111395.jpg", alt: "Client headshot" },
+        { src: "http://img.b2bpic.net/free-photo/laboratory-glassware-with-red-liquid-still-life_23-2149510715.jpg", alt: "Client headshot" },
       ]}
       marqueeItems={[
-        {
-          type: "text",
-          text: "Chemical Compliance",
-        },
-        {
-          type: "text",
-          text: "Industrial Logistics",
-        },
-        {
-          type: "text",
-          text: "Regulatory Support",
-        },
-        {
-          type: "text",
-          text: "Quality Assured",
-        },
-        {
-          type: "text",
-          text: "Nordic Partner",
-        },
+        { type: "text", text: "Chemical Compliance" },
+        { type: "text", text: "Industrial Logistics" },
+        { type: "text", text: "Regulatory Support" },
+        { type: "text", text: "Quality Assured" },
+        { type: "text", text: "Nordic Partner" },
       ]}
     />
   </div>
@@ -154,33 +75,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       metrics={[
-        {
-          id: "1",
-          value: "99.8%",
-          title: "Supply Accuracy",
-          items: [
-            "Precise deliveries",
-            "Documentation compliant",
-          ],
-        },
-        {
-          id: "2",
-          value: "24h",
-          title: "Response Time",
-          items: [
-            "Fast procurement",
-            "Local support team",
-          ],
-        },
-        {
-          id: "3",
-          value: "150+",
-          title: "Active Agreements",
-          items: [
-            "Mid-sized partners",
-            "Consistent supply chain",
-          ],
-        },
+        { id: "1", value: "99.8%", title: "Supply Accuracy", items: ["Precise deliveries", "Documentation compliant"] },
+        { id: "2", value: "24h", title: "Response Time", items: ["Fast procurement", "Local support team"] },
+        { id: "3", value: "150+", title: "Active Agreements", items: ["Mid-sized partners", "Consistent supply chain"] },
       ]}
       title="Operational Excellence"
       description="Our commitment to the Nordic industrial sector is defined by these core metrics."
@@ -193,6 +90,12 @@ export default function LandingPage() {
       textboxLayout="default"
       gridVariant="uniform-all-items-equal"
       useInvertedBackground={false}
+      title="Client Success Stories"
+      description="What our partners say about us."
+      testimonials={[
+        { name: "Erik Solberg", handle: "@nordic", testimonial: "Exceptional service.", rating: 5 },
+        { name: "Ingrid Berg", handle: "@chem", testimonial: "Very professional.", rating: 5 }
+      ]}
     />
   </div>
 
@@ -200,6 +103,9 @@ export default function LandingPage() {
       <SocialProofOne
       textboxLayout="default"
       useInvertedBackground={false}
+      title="Trusted by Industry"
+      description="Collaborating with major brands."
+      names={["Nordic Manufacturing", "Chemical Solutions AS", "Industrial Partners"]}
     />
   </div>
 
@@ -209,6 +115,12 @@ export default function LandingPage() {
       textboxLayout="default"
       gridVariant="uniform-all-items-equal"
       useInvertedBackground={false}
+      title="Meet the Team"
+      description="Our dedicated specialists."
+      members={[
+        { name: "Erik S.", role: "CEO", imageSrc: "" },
+        { name: "Ingrid B.", role: "COO", imageSrc: "" }
+      ]}
     />
   </div>
 
@@ -216,29 +128,15 @@ export default function LandingPage() {
       <FooterBase
       columns={[
         {
-          title: "Company",
-          items: [
-            {
-              label: "About Us",
-              href: "/",
-            },
-            {
-              label: "Careers",
-              href: "/",
-            },
+          title: "Company",          items: [
+            { label: "About Us", href: "/" },
+            { label: "Careers", href: "/" },
           ],
         },
         {
-          title: "Support",
-          items: [
-            {
-              label: "Compliance",
-              href: "/compliance",
-            },
-            {
-              label: "Contact",
-              href: "/contact",
-            },
+          title: "Support",          items: [
+            { label: "Compliance", href: "/compliance" },
+            { label: "Contact", href: "/contact" },
           ],
         },
       ]}
